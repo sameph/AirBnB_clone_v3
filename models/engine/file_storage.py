@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains the FileStorage class
+This Contains the FileStorage class
 """
 
 import json
@@ -83,5 +83,5 @@ class FileStorage:
                 del self.__objects[key]
 
     def close(self):
-        """call reload() method for deserializing the JSON file to objects"""
+        """call reload() method deserializing the JSON file to objects"""
         self.reload()
